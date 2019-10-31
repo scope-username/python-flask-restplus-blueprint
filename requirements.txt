@@ -2,4 +2,3 @@ flask
 flask_restplus
 Flask-BasicAuth
 python-dotenv
-werkzeug

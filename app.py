@@ -18,4 +18,4 @@ app.register_blueprint(blueprint1)
 app.register_blueprint(blueprint2)
 
 basic_auth = BasicAuth(app)
-app.run(debug=True)
+app.run(debug=True, host='0.0.0.0')
