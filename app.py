@@ -19,6 +19,3 @@ app.register_blueprint(blueprint2)
 
 basic_auth = BasicAuth(app)
 app.run(debug=True)
-
-# TODO adding authentication - https://flask-restplus.readthedocs.io/en/stable/swagger.html#documenting-authorizations
-# TODO swagger documentation - https://flask-restplus.readthedocs.io/en/stable/swagger.html#input-and-output-models
