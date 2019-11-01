@@ -24,7 +24,7 @@ def default_error_handle():
 
 
 @namespace.route("/service1")
-@namespace.doc(...)
+@namespace.doc()
 class Service1(Resource):
     def get(self):
         try:

@@ -13,14 +13,14 @@ namespace2_service2_request_data = namespace.model("namespace2_service2_request_
 
 
 @namespace.route("/service1")
-@namespace.doc(...)
+@namespace.doc()
 class Service1(Resource):
     def get(self):
         return get_service()
 
 
 @namespace.route("/service2")
-@namespace.doc(...)
+@namespace.doc()
 class Service2(Resource):
     @namespace.expect(namespace2_service2_request_data)
     def post(self):
