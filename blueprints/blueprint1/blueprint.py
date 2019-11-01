@@ -1,7 +1,6 @@
 from flask import Blueprint, jsonify
 from flask_restplus import Api
 
-
 from blueprints.blueprint1.namespace1.namespace1 import namespace as namespace1
 from blueprints.blueprint1.namespace2.namespace2 import namespace as namespace2
 
